@@ -1,0 +1,9 @@
+name: 'DeinPlugin Publish'
+description: 'Update data stored at deinplugin.net'
+inputs:
+  token:
+    description: 'The token of your plugin'
+    required: true
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
